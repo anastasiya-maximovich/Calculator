@@ -1,1 +1,1 @@
-[# Calculator][ https://anastasiya-maximovich.github.io/Calculator/]
+[# Calculator](https://anastasiya-maximovich.github.io/Calculator/)
