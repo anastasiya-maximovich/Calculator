@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calc-container">
+        <div id="display" class="calc-output">
+       a     <div id="previous-operand" class="previous-operand"></div>
+            <div id="current-operand" class="current-operand" value="0">0</div>
+        </div>
+        <button id="clear" class="clear-btn calc-btn span-two">AC</button>
+        <button id="delete" class="clear-btn calc-btn span-two">DEL</button>
+        <button id="add-min" class="calc-btn" onclick="currentOperandTE.innerText = (-1)*(currentOperandTE.innerText)">+/-</button>
+        <button class="operation calc-btn">X²</button>
+        <button class="operation calc-btn">√</button>
+        <button class="operation calc-btn">/</button>
+        <button class="number calc-btn">1</button>
+        <button class="number calc-btn">2</button>
+        <button class="number calc-btn">3</button>
+        <button class="operation calc-btn">*</button>
+        <button class="number calc-btn">4</button>
+        <button class="number calc-btn">5</button>
+        <button class="number calc-btn">6</button>
+        <button class="operation calc-btn">-</button>
+        <button class="number calc-btn">7</button>
+        <button class="number calc-btn">8</button>
+        <button class="number calc-btn">9</button>
+        <button class="operation calc-btn">+</button> 
+        <button id="decimal" class="calc-btn">.</button>
+        <button class="number calc-btn">0</button>
+        <button class="operation calc-btn span-two">=</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
